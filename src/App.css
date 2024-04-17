@@ -1,0 +1,130 @@
+
+.Navbar {
+
+  padding: 10px;
+  position: fixed;
+  background-color: #150821;
+
+  top: 0; /* Set the top position to 0 */
+  left: 0; /* Align the navbar to the left */
+  width: 100%;
+  z-index: 1000;
+  display: flex; /* Use flexbox to display items in a row */
+  justify-content: space-between;
+  overflow: hidden;
+
+
+
+}
+.Navbar li{
+  display: flex; 
+}
+
+
+.Navbar ul li{
+  margin-right: 20px;
+  color: #000; 
+}
+.Navbar ul li:hover {
+  background-color: rgb(211, 220, 199);
+  box-shadow:color(from color srgb r1 g2 b3)
+}
+.Login ul{
+  display: flex;
+  padding: 5px;
+  text-underline-offset: 1;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  
+}
+.Login ul:hover{
+  background-color: rgb(5, 243, 108);
+  
+  border-radius: 15px;
+  box-shadow:color(from color srgb r1 g2 b3)
+  
+
+  
+}
+
+.Products {
+  background-color: rgb(150, 230, 22);
+  display: flex;
+  flex-wrap: nowrap; /* Ensure no wrapping occurs */
+padding-top: 20px;
+padding-bottom: 10px;
+  width: auto;
+  height: max-content;
+  overflow: hidden;
+  
+  cursor: url('heart.cur'), auto;
+
+
+}
+.Slider{
+  background-color:rgb(150, 230, 22);
+
+  width: 750px;
+  height: 120px;
+
+}
+.Goodimg{
+  background-color: rgb(150, 230, 22);
+ 
+ 
+
+  
+  border-radius: 10px;
+  width: auto;
+
+  
+}
+
+.Goodimg img {
+  width: 250px; /* Ensure images maintain their aspect ratio */
+  height: 150px; /* Make images fill the height of their container */
+  padding-right: 10px;
+  display: flex;
+  object-fit: cover; /* Maintain image aspect ratio while covering the container */
+  border-radius: 5px;
+  padding-top: 30px;
+  
+
+}
+
+.AboutContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color:  #150821;
+}
+
+.AboutContent,
+.ContactInfo {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.ContactDetail {
+  font-weight: bold;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.ContactInfo p {
+  margin-bottom: 10px;
+}
+
+.ContactInfo svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
